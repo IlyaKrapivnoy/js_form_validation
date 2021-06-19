@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Form Validation</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+    <script defer src="js/btn-animation.js"></script>
+    
     
 </head>
 <body>
@@ -20,9 +22,12 @@
             <label for="password">Password</label>
             <input id="password" name="password" type="password">
         </div>
-        <div class="btn">
-            <button type="submit">Submit</button>
-        </div>
+        <figure>
+            <button class="myBtn">Submit</button>
+            <div class="shadow"></div>
+        </figure>
     </form>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </body>
 </html>
