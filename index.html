@@ -5,19 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    
 </head>
 <body>
     <div id="error"></div>
     <form action="/" method="GET">
-        <div>
+        <div class="form-row">
             <label for="name">Name</label>
             <input id="name" name="name" type="text">
         </div>
-        <div>
+        <div class="form-row">
             <label for="password">Password</label>
             <input id="password" name="password" type="password">
         </div>
-        <button type="submit">Submit</button>
+        <div class="btn">
+            <button type="submit">Submit</button>
+        </div>
     </form>
 </body>
 </html>
